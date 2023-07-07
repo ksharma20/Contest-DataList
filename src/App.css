@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  width: 100vw;
+}
+
+.sidebar {
+  background: #000;
+  color: aliceblue;
+  padding: 10%;
+  height: 100vh;
+}
+
+.sidebar_platformNames {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+@media only screen and (max-width:600px){
+  .app {
+    flex-direction: column;
+  }
+  
+  .sidebar_menu {
+    display: contents;
+  }
+
+}
